@@ -10,6 +10,8 @@ body {
   --third-text-color: #ffffff;
   --first-background-color: #f5f4fa;
   --second-background-color: #2f303a;
+  --third-background-color: #eeeeee;
+  --line-color: #ececec;
 }
 
 p,
@@ -22,6 +24,12 @@ h6,
 ul {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -48,6 +56,7 @@ ul {
 /* -----------HEADER--------------- */
 .header-section {
   max-width: 1600px;
+  border-bottom: 1px solid var(--line-color);
 }
 .container {
   max-width: 1200px;
@@ -350,6 +359,17 @@ ul {
   color: var(--third-text-color);
 }
 
+.filter-btn {
+  padding: 6px 22px;
+}
+
+.main-filter > li {
+  margin-right: 8px;
+}
+
+.main-filter > li:last-child {
+  margin-right: 0;
+}
 .filter-name {
   font-weight: bold;
   font-size: 18px;
@@ -358,11 +378,40 @@ ul {
   color: var(--second-text-color);
 }
 
+.main-filter {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .filter-type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.portfolio-list > li {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background: var(--third-text-color);
+  border: 1px solid var(--third-background-color);
+}
+
+.portfolio-list {
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 322px;
+}
+
+.item-description > .filter-name {
+  margin-bottom: 4px;
 }
 /* --------SERVISE-CLASS-------------------- */
 
