@@ -1,0 +1,226 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: var(--third-text-colorr);
+}
+
+:root {
+  --accent-color: #2196f3;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --first-background-color: #f5f4fa;
+  --second-background-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -----------HEADER--------------- */
+.header-left-link:hover,
+.header-left-link:focus,
+.header-rihgt-link:hover,
+.header-rihgt-link:focus {
+  color: var(--accent-color);
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-lofo-syffix {
+  color: var(--first-text-color);
+}
+.header-left-item,
+.header-rihgt-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-left-link {
+  color: var(--first-text-color);
+}
+.header-rihgt-link {
+  color: var(--second-text-color);
+}
+.header-left-link.link.current {
+  color: var(--accent-color);
+}
+
+/* ----------MAIN--------------- */
+.title-section {
+  background-color: var(--second-background-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+
+.main-btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----------FEATURES-------------------------- */
+
+.features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-text-color);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* --------ABOUT-------------------------- */
+.universal-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* --------ABOUT-OUR-TEAM--------------------- */
+.our-team {
+  background: var(--first-background-color);
+}
+.our-developer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+
+.developer-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* ---------FOOTER----------------------- */
+.third-text-color:hover,
+.third-text-color:focus,
+.third-text-color-transparence:hover,
+.third-text-color-transparence:focus {
+  color: var(--accent-color);
+}
+
+.footer-section {
+  background: var(--second-background-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.footer-logo-syffix {
+  color: var(--third-text-color);
+}
+
+.footer-address-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+
+/* -----------PORTFOLIO-HTML---------------------------- */
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+
+.filter-btn {
+  font-family: inherit;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--first-background-color);
+  cursor: pointer;
+}
+.filter-btn.current-btn {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+}
+
+.filter-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+
+.filter-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+/* --------SERVISE-CLASS-------------------- */
+
+.accent-color {
+  color: var(--accent-color);
+}
+
+.first-text-color {
+  color: var(--first-text-color);
+}
+
+.second-text-color {
+  color: var(--second-text-color);
+}
+
+.third-text-color {
+  color: var(--third-text-color);
+  font-style: normal;
+}
+
+.third-text-color-transparence {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
